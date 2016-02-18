@@ -14,14 +14,13 @@ case `uname` in
     "Linux" )
         if [ -f /etc/redhat-release ];then
             RHEL_VERSION=`sed -e 's/^[^[:digit:]]*\([[:digit:]]\).*$/\1/g' /etc/redhat-release`
-            DIST_SUFFIX="EL${RHEL_VERSION}"
+            export DIST_SUFFIX="EL${RHEL_VERSION}"
         else
-            DIST_SUFFIX="linux"
+            export DIST_SUFFIX="linux"
         fi
-        export CPPFLAGS="-static"
         ;;
     * )
-        DIST_SUFFIX="unknown";;
+        export DIST_SUFFIX="unknown";;
 esac
 
 run ./autogen.sh

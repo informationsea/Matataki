@@ -55,3 +55,4 @@ Copyright
 ---------
 
 Copyright (C) 2016 OKAMURA, Yasunobu
+Copyright (C) 2009-2011 FAL Labs (kyoto cabinet)
