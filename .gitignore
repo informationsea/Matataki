@@ -1,0 +1,59 @@
+## OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+## Emacs
+*~
+\#*\#
+.\#*
+
+## autotools
+
+Makefile
+*.o
+*.lo
+*.la
+.libs
+.deps
+stamp-h1
+/autom4te.cache
+/libtool
+/config.log
+/config.status
+*.tar.gz
+/autoscan.log
+/configure.scan
+Makefile.in
+config.h.in
+/configure
+/aclocal.m4
+/m4
+/build-aux
+/libtool
+/autom4te.cache
+/ltmain
+*.pc
+frozenhashmap-uninstalled.sh
+frozenhashmap-*.tar.*
+
+/test/run-test.sh.log
+/test/run-test.sh.trs
+/test/test-suite.log
+
+/src/config.h
+/src/frozenhash
+
+log.txt
+
+tmp/

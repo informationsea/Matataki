@@ -1,0 +1,12 @@
+/tmp/
+.dirstamp
+*.log
+*.trs
+test_builder
+test_common
+test_tabtable
+test_mapping
+test_db
+test_coverage
+test_genomehash
+test_pipedopen

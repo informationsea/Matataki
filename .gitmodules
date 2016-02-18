@@ -1,0 +1,3 @@
+[submodule "libs/CppFasta"]
+	path = libs/CppFasta
+	url = git@github.com:informationsea/CppFasta.git
