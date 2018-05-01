@@ -1,5 +1,5 @@
 AC_PREREQ([2.68])
-AC_INIT([Matataki], [0.0.1], [okamura@informationsea.info])
+AC_INIT([Matataki], [0.0.2], [okamura@informationsea.info])
 AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([-Wall])
 
