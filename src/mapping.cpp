@@ -173,7 +173,7 @@ uint32_t QuickMapping::mapSequence(const cppfasta::SequenceRecord2 &record) cons
 uint32_t QuickMapping::addSequence(const cppfasta::SequenceRecord2 &record)
 {
     uint32_t gene = mapSequence(record);
-    if (gene == GENOMEHASH_UNMAPPED_ID) {
+    if (gene == GENOMEHASH_UNMAPPED_ID || gene == GENOMEHASH_MULTIMAP_ID) {
         m_unmapped += 1;
     } else if (gene == GENOMEHASH_FAILED_ID) {
         // ignore

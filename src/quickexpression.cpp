@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
     bool unifiedPairFile = false;
     int exitStatus = 0;
     int ch;
-    long stepSize = 1;
-    long acceptcount = 1;
+    long stepSize = 12;
+    long acceptcount = 2;
     const char *program = argv[0];
     const char *outputpath = NULL;
     const char *resultpath = NULL;

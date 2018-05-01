@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 
-static const int DEFAULT_NGRAM = 20;
+static const int DEFAULT_NGRAM = 32;
 
 int main(int argc, char *argv[])
 {
